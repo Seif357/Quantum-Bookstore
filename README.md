@@ -22,21 +22,6 @@ Specialized Subclasses:
 | 🔄 Remove Outdated Books       | Automatically remove books older than N years                              |
 | 📨 Email & Shipping Simulation | Static `MailService` and `ShippingService` print delivery confirmations    |
 | 🧪 Built-in Test Suite         | Includes a complete test class simulating all core use cases               |
-----------------------------------------------------------------------------------------------------------------
-
-📦 Quantum Bookstore structure
-├── Book.java
-├── Buyable.java
-├── Customer.java
-├── EBook.java
-├── MailService.java
-├── PaperBook.java
-├── QuantumBookstore.java
-├── ShippingService.java
-├── ShowcaseBook.java
-├── Test.java
-
-
 
 📌 Notes
 Designed to allow easy extension (e.g., adding AudioBooks) without modifying core logic.
