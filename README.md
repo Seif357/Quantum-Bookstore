@@ -29,3 +29,6 @@ Designed to allow easy extension (e.g., adding AudioBooks) without modifying cor
 🙋 Author
 Seif Omar
 Backend Developer | October 6 University
+
+![Screenshot From 2025-07-09 00-21-10](https://github.com/user-attachments/assets/e9577b58-88a1-457f-9bb9-f6b1df6403af)
+![Screenshot From 2025-07-09 00-18-40](https://github.com/user-attachments/assets/fe0f4ea9-0a68-4bc0-8d79-c1c37c602a27)
