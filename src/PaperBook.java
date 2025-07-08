@@ -10,14 +10,14 @@ public class PaperBook extends Book implements Buyable {
         return quantity;
     }
     @Override
-    public double buyBook(int quantity,String email, String Address) {
+    public double buyBook(int quantity,String address, String Address) {
         if(this.quantity >= quantity) {
             this.quantity -= quantity;
         }
         else {
             throw new IllegalArgumentException("Not enough books in stock. Available: " + this.quantity);
         }
-        ShippingService.ship(quantity,email,this.getTitle());
+        ShippingService.ship(quantity,address,this.getTitle(),this.getPrice()*quantity);
         return this.getPrice()*quantity;
     }
 }

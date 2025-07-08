@@ -9,7 +9,7 @@ public class EBook extends Book implements Buyable {
     }
     @Override
     public double buyBook(int quantity,String email, String address) {
-        MailService.sendMail(quantity,email,this.getTitle());
+        MailService.sendMail(quantity,email,this.getTitle(),this.getPrice()*quantity);
         return this.getPrice()*quantity;
     }
 }
